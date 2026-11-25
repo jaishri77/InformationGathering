@@ -28,24 +28,26 @@ Footprinting is a part of the reconnaissance process which is used for gathering
 http://www.whois.com/whois website to get detailed information about a domain name information including its owner, its registrar, date of registration, expiry, name server, owner's contact information, etc.
 
 ## OUTPUT:
-
+![alt text](image.png)
 
 ## Finding IP address:
 ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of facebook.com.
-##output
+## output
+![alt text](image-1.png)
 
 
 
 ## Finding Hosting Company
 get further detail by using ip2location.com website.
-##output
+## output
+![alt text](image-2.png)
 
 
 
 ## History of the website:
 ## output
 https://web.archive.org/
-
+![alt text](image-3.png)
 
 # Webserver Fingerprinting:
 
@@ -53,19 +55,21 @@ https://web.archive.org/
 sudo nc example.com 80
 GET / HTTP/1.1
 Host: example.com
-
+![alt text](image-4.png)
 
 
 ## nmap:
-###output
-
+### output
+![alt text](image-5.png)
 
 ## Whatweb
 ### output
+![alt text](image-6.png)
 
 
 ## httprint
 ### output
+![alt text](image-7.png)
 
 
 
@@ -74,22 +78,20 @@ Host: example.com
 TCP Traceroute:
 sudo traceroute -T www.google.com
 ## output
-
+![d](image-9.png)
 
 ## UDP Traceroute:
 sudo traceroute -U www.google.com
 ## output
 
-
+![alt text](image-8.png)
 
 ## ICMP Traceroute:
 sudo traceroute  www.google.com
 ## output
 
 
-
-
-
+![alt text](image-10.png)
 
 ## RESULT:
 The information gathering techniques tools/procedure were  identified successfully
